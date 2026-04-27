@@ -1,5 +1,6 @@
 * {
     color: white;
+    font-family: dynaPuff;
 }
 .products {
     display: flex;
@@ -16,9 +17,11 @@
     padding: 2rem;
     border-radius: 5rem;
     transition: transform .3s ease-out;
+    
     margin: 1.2rem;
     &:hover {
         transform: scale(1.1);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     }
 }
 .card-img {
